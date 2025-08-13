@@ -5,7 +5,7 @@ The trained model predicts the next word in a sequence of text and is deployed w
 
 ## Features
 - **Text preprocessing**: tokenization, sequence generation, and padding.
-- **Deep Learning model**: Embedding + GRU layers [or LSTM can be added in MODEL section of experiments.ipynb file in place of GRU].
+- **Deep Learning model**: Embedding + LSTM layers [or GRU can be added in MODEL section of experiments.ipynb file in place of GRU].
 - **EarlyStopping** to prevent overfitting.
 - **Interactive web app** built with Streamlit.
 - **Model and tokenizer persistence** for reuse without retraining.
