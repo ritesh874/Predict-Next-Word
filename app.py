@@ -56,7 +56,7 @@ def predict_next_word(model, tokenizer, text, max_sequence_len):
 
 # ---- Streamlit UI ----
 st.title("Next Word Prediction")
-input_text = st.text_input("Enter the sequence of Words", "To be or not to be")
+input_text = st.text_input("Enter the sequence of Words", "Who is the")
 
 if st.button("Predict Next Word"):
     max_sequence_len = model.input_shape[1] + 1
